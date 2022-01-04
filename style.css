@@ -1,0 +1,73 @@
+:root{
+  --font1: arial;
+  --font2: 'Sriracha', cursive;
+  --font3:'Passion One', cursive;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+html body{
+  min-height: 100vh;
+  background-color: darkslategray;
+  font-family: var(--font1);
+}
+header{
+  background-color: black;
+  color:white;
+  text-align: center;
+}
+header h1{
+  padding-top: 30px;
+  font-variant: small-caps;
+  font-family: var(--font3);
+  font-size: 5vh;
+}
+header p{
+  padding-bottom: 30px;
+}
+header a, footer a{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+}
+section{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 2em;
+  padding-left: 30px;
+  font-family: var(--font2);
+  font-size: 2vh;
+}
+section > p{
+  padding-bottom: 1em;
+}
+.normal{
+  background-color: white;
+}
+.imagem{
+  background-color: dimgrey;
+  color:white;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.imagem > p{
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+#img1{
+  background-image: url("background001.jpg");
+  background-position: right center;
+
+}
+#img2{
+  background-image: url("background002.jpg");
+
+}
+footer{
+ background-color: black;
+ color:white;
+ text-align: center;
+ padding: 10px;
+}
